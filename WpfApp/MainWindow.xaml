@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Height="50px" Orientation="Horizontal" VerticalAlignment="Top">
+            <Border Grid.Row="1" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10">
+                <Button Height="50px" Width="50px">
+                    <Image Source="D:\Рабочий стол\Работи\Дз.Универ\Інтрефейси\Лаб1\Lab1.DPGI\DPGI_Labs\WpfApp\img\copy.png"/>
+                </Button>
+                <Button Height="50px" Width="50px">
+                    <Image Source="D:\Рабочий стол\Работи\Дз.Универ\Інтрефейси\Лаб1\Lab1.DPGI\DPGI_Labs\WpfApp\img\delete.png"/>
+                </Button>
+                <Button Height="50px" Width="50px">
+                    <Image Source="D:\Рабочий стол\Работи\Дз.Универ\Інтрефейси\Лаб1\Lab1.DPGI\DPGI_Labs\WpfApp\img\open.png"/>
+                </Button>
+                <Button Height="50px" Width="50px">
+                    <Image Source="D:\Рабочий стол\Работи\Дз.Универ\Інтрефейси\Лаб1\Lab1.DPGI\DPGI_Labs\WpfApp\img\paste.png"/>
+                </Button>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>
